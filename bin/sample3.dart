@@ -17,7 +17,7 @@ void main() {
   print(obj1.mark = 12.6);
   print(FileName.course);
 
-  print("My name is ${obj.name = "swathy"}");
+  print("My name is ${obj.name = "mr. s"}");
   print(obj.age = 25);
   print(obj.mark = 11.8);
   print(FileName.course);
