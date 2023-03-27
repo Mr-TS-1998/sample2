@@ -35,4 +35,6 @@ void main()
   obj.sub();
   obj.multi();
   obj.div();
+  print("----------");
+  obj..add()..sub()..multi()..div();// cascade notation
 }
