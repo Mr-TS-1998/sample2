@@ -17,7 +17,7 @@ void main()
   print("----------------");
 
   var x=100, y=200, z=300;
-  var greatest= x>y ? "$y>$z" : "$z>$x";
+  var greatest= x>y ? (x>z ? x:y) : (y>z ? y:z);
   print(greatest);
 }
 
