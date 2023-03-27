@@ -36,5 +36,5 @@ void main()
   obj.multi();
   obj.div();
   print("----------");
-  obj..add()..sub()..multi()..div();// cascade notation
+  obj..add()..sub()..multi()..div();// cascade notation-allows to perform a sequence of operations on the same object.
 }
