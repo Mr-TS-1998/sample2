@@ -11,13 +11,13 @@ void main()
   print("----------------");
 
   var a=10, b=20;
-  var res = a>b ? "$a is greater" : "$b is greater";
+  var res = a>b ? "$a is greater" : "$b is greater"; //condition ? true : false;
   print(res);
 
   print("----------------");
 
   var x=100, y=200, z=300;
-  var greatest= x>y ? (x>z ? x:y) : (y>z ? y:z);
+  var greatest= x>y ? (x>z ? x:y) : (y>z ? y:z); //condition ? true : false;
   print(greatest);
 }
 
