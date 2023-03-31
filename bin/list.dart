@@ -81,9 +81,9 @@ void main()
         listz.insert(i,int.parse(stdin.readLineSync()!));
 
       }
-    for(var number in listz)
+    for(var num1 in listz)// for showing the values entered
       {
-        print(number);
+        print(num1);
       }
 //-----------------------------------------------------------------------
     var q; //or int ? q; // here null error will be removed
